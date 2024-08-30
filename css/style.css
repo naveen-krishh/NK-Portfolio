@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    /* overflow-x: hidden !important; */
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+section {
+    width: 100%;
+    height: 80vh;
+    background-image: url('../images/bg10.jpg');
+    background-color: rgba(0, 0, 0, 0.652);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+section header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px rgb(255, 255, 255);
+
+}
+
+section header nav {
+    width: 95%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.553); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+
+section header nav .logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+section header nav .logo .circle {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+section header nav .logo h1 {
+    font-size: 40px;
+    color: white;
+    z-index: 3;
+}
+
+/* section header nav .menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    background-color: antiquewhite;
+} */
+
+
+section header nav ul{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+section header nav ul li{
+    list-style: none;
+}
+
+
+section header nav .fa-bars {
+    font-size: 20px;
+    color: white;
+    z-index: 4;
+}
+
+
+.main-container section .content-container {
+    width: 35%;
+    height: 60vh;
+    padding-left: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.main-container section .content-container .one {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.main-container section .content-container h1 {
+    font-size: 32px;
+    color: white;
+}
+
+.main-container section .content-container h2 {
+    font-size: 20px;
+    color: white;
+}
+
+.main-container section .content-container .two {
+    font-size: 16px;
+    color: white;
+}
+
+.main-container section .content-container .icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.main-container section .content-container .icons .fa-square-facebook,
+.main-container section .content-container .icons .fa-square-instagram,
+.main-container section .content-container .icons .fa-square-behance,
+.main-container section .content-container .icons .fa-square-x-twitter {
+    font-size: 40px;
+    color: white;
+    border-radius: 50%;
+}
+
+
+.main-container section .content-container .buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.main-container section .content-container .buttons .primary-button {
+    border: 2px solid white;
+    background-color: white;
+    padding: 5px 9px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-container section .content-container .buttons .primary-button p {
+    font-size: 20px;
+}
+
+.main-container section .content-container .buttons .secondary-button {
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 5px 9px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-container section .content-container .buttons .secondary-button p {
+    font-size: 20px;
+}
+
+
+.main-container .section-two {
+
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/bg24.jpg);
+    background-color: rgba(143, 143, 205, 0.545);
+    display: flex;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.main-container .section-two .second-container {
+    width: 50%;
+    height: 80%;
+    background-color: rgba(221, 221, 221, 0.36);
+    background-image: url(../images/bg5.jpg);
+    background-blend-mode: overlay;
+    box-shadow: 90px 90px 200px rgba(0, 0, 0, 0.17);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    position: absolute;
+    top: -10%;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-container .section-two .second-container img{
+    /* box-shadow: 0px 0px 5px black;   */
+}
+
+.main-container .section-two .second-container .images {
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 20px black;
+    background-color: rgba(0, 0, 0, 0.178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+
+.main-container .section-two .second-container .images .first{
+    width: auto;
+    height: auto;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+.main-container .section-two .second-container .images .second{
+    width: auto;
+    height: auto;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+
+
+.main-container .section-two .second-container img {
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    margin: 10px;
+    /* background-color: rgba(0, 0, 0, 0.178); */
+    width: 50px;
+    height: 50px;
+
+}
+
+.main-container footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/bg9.jpg);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.main-container footer h1 {
+    color: white;
+    font-size: 18px;
+}
+
+
+/* Nav Burger menu start */
+/* /*  */
+section header nav #Burger{
+    width: 100%;
+    display: none;
+}
+
+section header nav label{
+    display: none;
+}
+
+/* 
+section header nav .burger-container .burger{
+    width: auto;
+    height: auto;
+}
+section header nav .burger-container .burger li{
+    list-style: none;
+    display: none;
+}
+
+section header nav .burger-container ul{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    left: 0px;
+    top: 10%;
+    background-color: red;
+    position: absolute;
+    padding: 10px;
+}
+
+#Burger:checked ~ ul{
+    display: block;
+} */
+
+
+
+
+
+
+/* Nav Burger menu end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1391px) {
+
+    section {
+        height: 80vh;
+    }
+
+    .main-container section .content-container {
+        width: 55%;
+        height: 65vh;
+        gap: 28px;
+    }
+
+    section header nav .logo h1 {
+        font-size: 38px;
+    }
+
+}
+
+
+@media (max-width:1253px) {
+
+    section {
+        height: 80vh;
+    }
+
+    .main-container section .content-container {
+        width: 40%;
+        /* height: 65vh; */
+        /* gap: 28px; */
+    }
+
+    section header nav .logo h1 {
+        font-size: 36px;
+    }
+
+
+}
+
+
+@media (max-width:1145px) {
+
+    section {
+        height: 90vh;
+    }
+
+
+    .main-container section .content-container {
+        width: 45%;
+        /* height: 65vh; */
+        /* gap: 28px; */
+    }
+
+    section header nav .logo h1 {
+        font-size: 34px;
+    }
+
+    .main-container footer h1 {
+        font-size: 28px;
+    }
+
+    .main-container .section-two .second-container img {
+
+        width: 42px;
+        height: 42px;
+
+    }
+
+
+
+}
+
+/* @media (max-width:1145px) {
+
+    section {
+        height: 80vh;
+    }
+
+
+    .main-container section .content-container {
+        width: 45%;
+
+    }
+
+    section header nav .logo h1 {
+        font-size: 34px;
+    }
+
+    .main-container footer{
+        height: 190px;
+
+    }
+
+    .main-container footer h1 {
+        font-size: 26px;
+    }
+
+    .main-container .section-two .second-container img {
+
+        width: 38px;
+        height: 38px;
+
+    }
+
+    
+
+} */
+
+@media (max-width:950px) {
+
+    section {
+        height: 80vh;
+    }
+
+    section header nav .logo h1 {
+        font-size: 30px;
+    }
+
+
+    .main-container section .content-container {
+        width: 65%;
+        height: 65vh;
+        gap: 28px;
+    }
+
+    .main-container section .content-container .one {
+        font-size: 18px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 30px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 18px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 15px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 38px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 18px;
+    }
+
+    
+    .main-container .section-two .second-container img {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .main-container .section-two .second-container{
+        width: 60%;
+        height: 90%;
+    }
+
+    .main-container footer{
+        height: 180px;
+
+    }
+
+
+    .main-container footer h1 {
+        font-size: 24px;
+    }
+
+
+
+
+
+    /* resp navbar start*/
+
+    section header nav{
+        /* overflow: hidden !important; */
+        /* position: relative; */
+        z-index: 1;
+    }
+    section header nav #Burger{
+        display: none;
+    }
+    
+    section header nav label{
+
+        display: block;
+    }
+    section header nav ul {
+        background-color: rgba(31, 36, 135, 0.378);
+        position: absolute;
+        top: 40px;
+        height: 200px;
+        width: 95%;
+        right: -150%;
+        flex-direction: column;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        overflow: hidden !important;
+        /* z-index: 100000; */
+        padding-right: 2.5%;
+    }   
+
+    nav #Burger:checked ~ ul {
+        right: 2.5%;
+        color: white;
+        font-weight: 600;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        cursor: pointer;
+    }
+    /* resp navbar end*/
+
+}
+
+@media (max-width:850px) {
+
+    section {
+        height: 80vh;
+    }
+
+    section header nav {
+        height: 90%;
+    }
+
+    section header nav .menu ul{
+        display: none;
+    }
+
+    section header nav .menu label{
+        display: block;
+    }
+
+    section header nav .logo h1 {
+        font-size: 29px;
+    }
+
+    .main-container section .content-container {
+        width: 65%;
+        /* height: 65vh; */
+        gap: 26px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 16px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 28px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 16px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 13px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 36px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 16px;
+    }
+
+    .main-container .section-two .second-container{
+        width: 70%;
+        height: 90%;
+    }
+
+    .main-container .section-two .second-container img {
+
+        width: 25px;
+        height: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+
+    .main-container footer{
+        height: 160px;
+
+    }
+
+
+    .main-container footer h1 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:705px) {
+
+    section {
+        height: 70vh;
+    }
+
+    section header nav {
+        height: 85%;
+    }
+
+    section header nav .logo h1 {
+        font-size: 28px;
+    }
+
+    .main-container section .content-container {
+        gap: 24px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 14px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 26px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 14px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 11px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 34px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 14px;
+    }
+
+    /* .main-container .section-two .second-container h1{
+        font-size: 1rem;
+    } */
+
+
+    
+    .main-container footer{
+        height: 150px;
+
+    }
+
+
+    .main-container footer h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:648px) {
+
+    section {
+        height: 70vh;
+    }
+
+    section header nav {
+        height: 80%;
+    }
+
+    .main-container section .content-container {
+        width: 70%;
+        /* height: 65vh; */
+        /* gap: 28px; */
+    }
+
+    section header nav .logo h1 {
+        font-size: 24px;
+    }
+
+    section header nav .menu .fa-bars   {
+        font-size: 18px;
+    }
+
+    .main-container section .content-container {
+        gap: 22px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 12px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 24px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 12px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 10px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 32px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 12px;
+    }
+
+    
+    .main-container .section-two .second-container{
+        width: 70%;
+        height: 90%;
+    }
+
+    .main-container .section-two .second-container h1{
+        font-size: 30px;
+    }
+
+
+        
+    .main-container footer{
+        height: 120px;
+
+    }
+
+    .main-container footer h1 {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width:589px) {
+
+    section {
+        height: 75vh;
+    }
+
+    section header nav {
+        height: 70%;
+    }
+
+    .main-container section .content-container {
+        width: 70%;
+        /* height: 65vh; */
+        /* gap: 28px; */
+    }
+
+    section header nav .logo h1 {
+        font-size: 22px;
+    }
+
+    section header nav .menu .fa-bars {
+        font-size: 16px;
+    }
+
+    .main-container section .content-container {
+        gap: 25px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 10px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 30px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 10px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 9px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 28px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 10px;
+    }
+
+    .main-container .section-two .second-container{
+        width: 70%;
+        height: 110%;
+        padding-top: -20px;
+    }
+    .main-container .section-two .second-container h1{
+        font-size: 28px;
+    }
+
+    .main-container .section-two .second-container .images{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+    .main-container .section-two .second-container img {
+        margin-top: 10px;
+    }
+
+    .main-container .section-two .second-container .images .second{
+        padding-top: 0px;
+    }
+
+    .main-container .section-two .second-container .images .second img{
+        padding-top: 0px;
+    }
+
+    .main-container footer{
+        height: 100px;
+
+    }
+
+    .main-container footer h1 {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:543px) {
+
+    section {
+        height: 65vh;
+    }
+
+    section header nav {
+        height: 65%;
+    }
+
+    .main-container section .content-container {
+        width: 70%;
+        /* height: 65vh; */
+        /* gap: 28px; */
+    }
+
+    section header nav .logo h1 {
+        font-size: 22px;
+    }
+
+    section header nav .menu .fa-bars {
+        font-size: 16px;
+    }
+
+    section header nav .logo .circle {
+        width: 18px;
+        height: 18px;
+    }
+
+    .main-container section .content-container {
+        gap: 20px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 8px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 18px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 8px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 9px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 26px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 8px;
+    }
+
+
+    
+    .main-container footer{
+        height: 80px;
+
+    }
+
+    .main-container footer h1 {
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width:493px) {
+
+    section {
+        height: 65vh;
+    }
+
+    section header nav {
+        height: 60%;
+    }
+
+    section header nav .logo h1 {
+        font-size: 20px;
+    }
+
+    section header nav .menu .fa-bars {
+        font-size: 14px;
+    }
+
+    .main-container section .content-container {
+        gap: 18px;
+    }
+
+
+    .main-container section .content-container .one {
+        font-size: 7px;
+    }
+
+    .main-container section .content-container h1 {
+        font-size: 16px;
+    }
+
+    .main-container section .content-container h2 {
+        font-size: 7px;
+    }
+
+    .main-container section .content-container .two {
+        font-size: 8px;
+    }
+
+    .main-container section .content-container .icons .fa-square-facebook,
+    .main-container section .content-container .icons .fa-square-instagram,
+    .main-container section .content-container .icons .fa-square-behance,
+    .main-container section .content-container .icons .fa-square-x-twitter {
+        font-size: 24px;
+    }
+
+    .main-container section .content-container .buttons .primary-button p,
+    .main-container section .content-container .buttons .secondary-button p {
+        font-size: 7px;
+    }
+
+
+    
+    
+    .main-container footer{
+        height: 70px;
+
+    }
+
+    .main-container footer h1 {
+        font-size: 12px;
+    }
+
+
+}
+
+
+@media (max-width:432px) {
+
+    section {
+        height: 60vh;
+    }
+
+    section header nav {
+        height: 40%;
+    }
+
+    section header nav .logo h1 {
+        font-size: 18px;
+    }
+
+    section header nav .menu .fa-bars {
+        font-size: 12px;
+    }
+
+
+    
+    
+    .main-container footer{
+        height: 60px;
+
+    }
+
+
+    .main-container footer h1 {
+        font-size: 10px;
+    }
+
+}
